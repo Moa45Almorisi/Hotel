@@ -1,0 +1,60 @@
+*{
+    font-family: 'janna lt';
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/a.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    text-align: right;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #00a9b0;
+}
+
+.logo img{
+    width: 50px;
+    margin: 0px 35px;
+}
+
+.reserve h6{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    background: white;
+    
+
+}
+.reserve{
+    text-align: center;
+    background-size: 200px;
+}
+.reserve input{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.reserve input[type="submit"]{
+    font-size: 20px;
+    color: #fff;
+    background: #00a9b0;
+    border: none;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th{
+    background: #00a9b0;
+    color: #fff;
+    padding: 5px 0;
+}
